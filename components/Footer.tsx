@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Contact & Address */}
+        {/* Contact */}
         <div>
           <h4 className="font-semibold text-lg mb-6 text-accent">Contact Us</h4>
           <div className="space-y-4 text-gray-300">
@@ -42,29 +42,74 @@ export default function Footer() {
         <div>
           <h4 className="font-semibold text-lg mb-6 text-accent">Partners &amp; Supporters</h4>
           <p className="text-gray-300 mb-6">Proudly collaborating with:</p>
-          <p className="text-gray-300">Diza Travels • Ethlathini Rest Camp • Ubizane Wildlife Reserve • Local Schools • Community Groups</p>
+          
+          <div className="space-y-3 text-gray-300">
+            <a href="https://www.dizatravels.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Diza Travels Safaris, Tours & Shuttles</a>
+            <a href="https://www.ethlathini.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Ethlathini Rest Camp</a>
+            <a href="https://www.ubizane.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Ubizane Wildlife Reserve</a>
+            <a href="https://www.mzamovillagehomestead.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Mzamo Cultural Village and Homestead</a>
+            <a href="https://www.zatours.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">ZAtours</a>
+            <a href="https://opdesk.app" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">OpDesk</a>
+            <span className="block text-gray-400">Local Schools</span>
+            <span className="block text-gray-400">Community Groups</span>
+          </div>
 
           <div className="mt-10">
             <h5 className="font-medium mb-4">Follow Our Journey</h5>
-            <div className="flex gap-4 items-center">
-              {/* Social icons remain unchanged */}
-              <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/facebook-icon.png" alt="Facebook" width={36} height={36} className="w-9 h-9 object-contain" />
+            <div className="flex gap-4 items-center flex-wrap">
+              <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/facebook-icon.png" 
+                  alt="Facebook" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
-              <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/instagram-icon.png" alt="Instagram" width={36} height={36} className="w-9 h-9 object-contain" />
+              <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/instagram-icon.png" 
+                  alt="Instagram" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
-              <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/twitter-icon.png" alt="Twitter" width={36} height={36} className="w-9 h-9 object-contain" />
+              <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/twitter-icon.png" 
+                  alt="Twitter" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
-              <a href="#" aria-label="X" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/X-icon.png" alt="X" width={36} height={36} className="w-9 h-9 object-contain" />
+              <a href="#" aria-label="X" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/X-icon.png" 
+                  alt="X" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
-              <a href="#" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/tiktok.png" alt="TikTok" width={36} height={36} className="w-9 h-9 object-contain" />
+              <a href="#" aria-label="TikTok" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/tiktok.png" 
+                  alt="TikTok" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
-              <a href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
-                <Image src="/images/icons/youtube-icon.png" alt="YouTube" width={36} height={36} className="w-9 h-9 object-contain" />
+              <a href="#" aria-label="YouTube" target="_blank" rel="noopener noreferrer" className="block">
+                <Image 
+                  src="/images/icons/youtube-icon.png" 
+                  alt="YouTube" 
+                  width={36} 
+                  height={36} 
+                  className="w-9 h-9 object-contain hover:scale-110 transition" 
+                />
               </a>
             </div>
           </div>
@@ -73,7 +118,12 @@ export default function Footer() {
 
       <div className="border-t border-white/20 mt-16 pt-8 text-center text-sm text-gray-400">
         <p>© {new Date().getFullYear()} Diza Kwa-Smolo Uplifting Initiative NPC. All Rights Reserved.</p>
-        <p className="mt-2">Website designed &amp; developed by RollingRover Productions</p>
+        <p className="mt-2">
+          Web design by{' '}
+          <a href="https://www.rollingrover.co.za" target="_blank" rel="noopener noreferrer" className="hover:text-white underline">
+            Rolling Rover Productions
+          </a>
+        </p>
       </div>
     </footer>
   );
