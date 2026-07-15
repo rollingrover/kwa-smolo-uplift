@@ -12,3 +12,5 @@ Thumbs.db
 .vercel/ 
 *.swp 
 *.swo 
+.vercel
+.env*
