@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   description: 'Empowering rural Zulu communities in Hluhluwe, KwaZulu-Natal through early childhood education, skills training, sustainable development and community upliftment programs.',
   keywords: ['KwaSmolo', 'Hluhluwe community upliftment', 'Zulu rural development', 'early childhood development KZN', 'skills training Hluhluwe', 'community projects KwaZulu-Natal', 'donate Hluhluwe'],
   authors: [{ name: 'Diza Kwa-Smolo Uplifting Initiative' }],
+
+  // Favicon & Icons
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
+  },
+
   openGraph: {
     title: 'Diza Kwa-Smolo Uplifting Initiative',
     description: 'Transforming lives in Hluhluwe through education, skills and sustainable community development.',
@@ -20,7 +28,7 @@ export const metadata: Metadata = {
     title: 'Diza Kwa-Smolo Uplifting Initiative',
     description: 'Empowering communities in Hluhluwe, KwaZulu-Natal',
   },
-  metadataBase: new URL('https://kwasmolo.org'), // Change when you have domain
+  metadataBase: new URL('https://www.dizakwasmolo.co.za'),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
