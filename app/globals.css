@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #166534;
+  --accent: #ca8a04;
+  --sand: #f5e8c7;
+  --background: #f8f1e3;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif !important;
+  background: var(--background) !important;
+}
+
+/* Force logo */
+img.logo, .logo {
+  height: 64px !important;
+  width: auto !important;
+  max-width: 220px !important;
+  object-fit: contain !important;
+}
+
+/* Premium headings */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.04em !important;
+}
+
+/* Make navbar better */
+nav .flex {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
