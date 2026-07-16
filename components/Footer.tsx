@@ -45,11 +45,14 @@ export default function Footer() {
           
           <div className="space-y-3 text-gray-300">
             <a href="https://www.dizatravels.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Diza Travels Safaris, Tours & Shuttles</a>
+            <a href="https://https://anneinnisdaggfoundation.org/" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Anne Innis Dagg Foundation</a>
+            <a href="https://www.hluhluwebushcamp.com/" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Hluhluwe Bush Camp</a>            
             <a href="https://www.ethlathini.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Ethlathini Rest Camp</a>
             <a href="https://www.ubizane.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Ubizane Wildlife Reserve</a>
             <a href="https://www.mzamovillagehomestead.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">Mzamo Cultural Village and Homestead</a>
             <a href="https://www.zatours.co.za" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">ZAtours</a>
             <a href="https://opdesk.app" target="_blank" rel="noopener noreferrer" className="block hover:text-white transition">OpDesk</a>
+            <span className="block text-gray-400">Cross The Borders</span>
             <span className="block text-gray-400">Local Schools</span>
             <span className="block text-gray-400">Community Groups</span>
           </div>
