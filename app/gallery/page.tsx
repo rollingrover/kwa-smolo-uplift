@@ -6,8 +6,8 @@ const projects = [
   { src: '/assets/gallery/homestay-students.png', alt: 'Students participating in homestay tourism' },
   { src: '/assets/gallery/student-at-bech.png', alt: 'Student at community beach or garden project' },
   { src: '/assets/gallery/children-new-clothes.png', alt: 'Children wearing new clothes' },
-  { src: '/assets/gallery/children-new-clothes.png2.png', alt: 'Children in new clothing' },
-  { src: '/assets/gallery/children-new-clothes.png3.png', alt: 'children in new clothes' },
+  { src: '/assets/gallery/children-new-clothes2.png', alt: 'Children in new clothing' },
+  { src: '/assets/gallery/children-new-clothes3.png', alt: 'Children in new clothes' },
 ];
 
 export default function Gallery() {
