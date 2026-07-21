@@ -62,6 +62,26 @@ export default function OurWork() {
             </div>
           </div>
 
+          {/* Project Card 3 */}
+          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
+            <Image 
+              src="/projects/project3.jpg" 
+              alt="Community Clothes Drive" 
+              width={600} 
+              height={400} 
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-8">
+              <h3 className="text-2xl font-semibold mb-3">Youth Clothing</h3>
+              <p className="text-gray-600 mb-4">
+                Procurement and Distribution of clothing to youth in need
+              </p>
+              <span className="inline-block bg-green-100 text-green-700 px-4 py-1 rounded-full text-sm font-medium">
+                100+ Clothing Items Distributed
+              </span>
+            </div>
+          </div>       
+
         </div>
       </section>
 
